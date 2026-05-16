@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>100 Welds – Structural Steel & PEB Contractors | Bengaluru</title>
+<meta name="description" content="Founded by an Ex-L&T professional with 15+ years of experience. 100 Welds specialises in structural steel fabrication & erection, PEB, retrofitting, slab strengthening, mezzanine floors and site barricading across Bengaluru.">
+<meta name="keywords" content="structural steel fabrication Bangalore, PEB contractor Bengaluru, structural steel erection, retrofitting Bangalore, slab strengthening, mezzanine steel floor, site barricading, PEB fabrication Bangalore">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+:root{
+  --ink:#0c0e11;
+  --ink-mid:#14181e;
+  --ink-soft:#1c2128;
+  --ink-border:rgba(255,255,255,0.07);
+  --orange:#e8521a;
+  --orange-light:#f06535;
+  --orange-dim:rgba(232,82,26,0.12);
+  --silver:#8a9aac;
+  --silver-light:#b8c8d8;
+  --white:#eef1f4;
+  --display:'Bebas Neue',sans-serif;
+  --body:'DM Sans',sans-serif;
+  --mono:'DM Mono',monospace;
+}
+html{scroll-behavior:smooth;}
+body{font-family:var(--body);background:var(--ink);color:var(--white);overflow-x:hidden;}
+::-webkit-scrollbar{width:3px;}
+::-webkit-scrollbar-track{background:var(--ink);}
+::-webkit-scrollbar-thumb{background:var(--orange);}
+a{text-decoration:none;color:inherit;}
+img{display:block;max-width:100%;}
+
+/* ── NAV ── */
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:500;
+  height:70px;padding:0 6%;
+  display:flex;align-items:center;justify-content:space-between;
+  background:rgba(12,14,17,0.95);
+  backdrop-filter:blur(16px);
+  border-bottom:1px solid rgba(232,82,26,0.25);
+  transition:background 0.3s;
+}
+.nav-left{display:flex;align-items:center;gap:20px;}
+.logo-100{font-family:var(--display);font-size:38px;color:var(--white);letter-spacing:0.04em;line-height:1;} .logo-welds{font-family:var(--display);font-size:38px;color:var(--orange);letter-spacing:0.04em;line-height:1;margin-left:5px;}
+.nav-divider{width:1px;height:28px;background:var(--ink-border);}
+.nav-tagline{font-family:var(--mono);font-size:10px;color:var(--silver);letter-spacing:0.12em;text-transform:uppercase;line-height:1.5;}
+.nav-links{display:flex;align-items:center;gap:32px;}
+.nav-links a{font-family:var(--mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;color:var(--silver);transition:color 0.2s;position:relative;padding-bottom:2px;}
+.nav-links a::after{content:'';position:absolute;bottom:-2px;left:0;right:0;height:1px;background:var(--orange);transform:scaleX(0);transform-origin:left;transition:transform 0.2s;}
+.nav-links a:hover{color:var(--white);}
+.nav-links a:hover::after{transform:scaleX(1);}
+.nav-call{display:flex;align-items:center;gap:10px;}
+.live-dot{width:7px;height:7px;background:var(--orange);border-radius:50%;animation:blink 2s infinite;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0.3;}}
+.nav-phone{font-family:var(--mono);font-size:13px;font-weight:500;color:var(--white);transition:color 0.2s;}
+.nav-phone:hover{color:var(--orange);}
+.nav-cta{background:var(--orange);color:var(--white);font-family:var(--mono);font-size:11px;letter-spacing:0.1em;text-transform:uppercase;padding:11px 22px;transition:background 0.2s;white-space:nowrap;margin-left:8px;}
+.nav-cta:hover{background:var(--orange-light);}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;}
+.hamburger span{width:24px;height:2px;background:var(--white);transition:all 0.3s;}
+
+/* ── HERO ── */
+.hero{
+  min-height:100vh;padding-top:70px;
+  display:grid;grid-template-columns:55% 45%;
+  position:relative;overflow:hidden;
+}
+.hero-left{
+  padding:80px 6% 80px 6%;
+  display:flex;flex-direction:column;justify-content:center;
+  position:relative;z-index:2;
+}
+.hero-right{position:relative;overflow:hidden;}
+.hero-right img{width:100%;height:100%;object-fit:cover;filter:brightness(0.45) contrast(1.15) saturate(0.8);transition:transform 8s ease;}
+.hero-right:hover img{transform:scale(1.04);}
+.hero-right::before{
+  content:'';position:absolute;inset:0;z-index:1;
+  background:linear-gradient(105deg,var(--ink) 0%,rgba(12,14,17,0.6) 35%,transparent 60%);
+}
+.hero-right::after{
+  content:'';position:absolute;inset:0;z-index:1;
+  background:linear-gradient(to top,var(--ink) 0%,transparent 30%);
+}
+.eyebrow{
+  font-family:var(--mono);font-size:11px;color:var(--orange);
+  letter-spacing:0.2em;text-transform:uppercase;
+  margin-bottom:28px;display:flex;align-items:center;gap:16px;
+}
+.eyebrow::before{content:'';width:40px;height:1px;background:var(--orange);}
+h1.hero-title{
+  font-family:var(--display);
+  font-size:clamp(72px,10vw,130px);
+  line-height:0.9;letter-spacing:0.02em;
+  color:var(--white);margin-bottom:8px;
+}
+h1.hero-title .line2{color:var(--orange);}
+.hero-sub{
+  font-family:var(--display);font-size:clamp(24px,3vw,38px);
+  color:var(--silver);letter-spacing:0.05em;margin-bottom:36px;
+}
+.hero-desc{
+  font-size:15px;font-weight:300;color:var(--silver-light);
+  line-height:1.85;max-width:480px;margin-bottom:44px;
+  border-left:2px solid var(--orange);padding-left:20px;
+}
+.hero-pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:44px;}
+.pill{
+  font-family:var(--mono);font-size:10px;letter-spacing:0.08em;text-transform:uppercase;
+  padding:6px 14px;border:1px solid var(--ink-border);color:var(--silver);
+  transition:border-color 0.2s,color 0.2s;
+}
+.pill.hot{border-color:rgba(232,82,26,0.4);color:rgba(232,82,26,0.8);}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap;}
+.btn-primary{
+  background:var(--orange);color:var(--white);
+  font-family:var(--mono);font-size:12px;letter-spacing:0.1em;text-transform:uppercase;
+  padding:16px 36px;display:inline-block;transition:background 0.2s,transform 0.1s;
+}
+.btn-primary:hover{background:var(--orange-light);transform:translateY(-2px);}
+.btn-outline{
+  background:transparent;color:var(--white);
+  font-family:var(--mono);font-size:12px;letter-spacing:0.1em;text-transform:uppercase;
+  padding:15px 36px;border:1px solid rgba(255,255,255,0.2);
+  display:inline-flex;align-items:center;gap:10px;transition:all 0.2s;
+}
+.btn-outline:hover{border-color:var(--orange);color:var(--orange);}
+.hero-scroll{
+  position:absolute;bottom:40px;left:6%;z-index:3;
+  font-family:var(--mono);font-size:10px;color:var(--silver);
+  letter-spacing:0.15em;text-transform:uppercase;
+  display:flex;align-items:center;gap:12px;
+}
+.hero-scroll::after{content:'';width:40px;height:1px;background:var(--silver);animation:scrollline 2s ease infinite;}
+@keyframes scrollline{0%,100%{width:40px;opacity:1;}50%{width:20px;opacity:0.4;}}
+
+/* ── TICKER ── */
+.ticker{background:var(--orange);padding:14px 0;overflow:hidden;white-space:nowrap;}
+.ticker-track{display:inline-flex;animation:tick 35s linear infinite;}
+@keyframes tick{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.ticker-item{
+  font-family:var(--mono);font-size:11px;letter-spacing:0.18em;text-transform:uppercase;
+  color:rgba(255,255,255,0.88);padding:0 48px;
+  border-right:1px solid rgba(255,255,255,0.25);
+}
+
+/* ── STATS ── */
+.stats{
+  display:grid;grid-template-columns:repeat(4,1fr);
+  border-bottom:1px solid var(--ink-border);
+}
+.stat-item{
+  padding:52px 36px;border-right:1px solid var(--ink-border);
+  position:relative;overflow:hidden;transition:background 0.3s;
+}
+.stat-item:last-child{border-right:none;}
+.stat-item:hover{background:var(--ink-mid);}
+.stat-item::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--orange);transform:scaleX(0);transform-origin:left;
+  transition:transform 0.4s;
+}
+.stat-item:hover::before{transform:scaleX(1);}
+.stat-num{font-family:var(--display);font-size:72px;color:var(--white);line-height:1;margin-bottom:6px;}
+.stat-num span{color:var(--orange);}
+.stat-label{font-family:var(--mono);font-size:11px;color:var(--silver);letter-spacing:0.1em;text-transform:uppercase;}
+
+/* ── SECTIONS ── */
+section{padding:100px 6%;}
+.section-tag{
+  font-family:var(--mono);font-size:11px;color:var(--orange);
+  letter-spacing:0.2em;text-transform:uppercase;
+  display:flex;align-items:center;gap:16px;margin-bottom:20px;
+}
+.section-tag::before{content:'';width:32px;height:1px;background:var(--orange);}
+h2.section-title{
+  font-family:var(--display);font-size:clamp(42px,6vw,72px);
+  line-height:0.95;letter-spacing:0.02em;margin-bottom:60px;
+}
+h2.section-title span{color:var(--orange);}
+
+/* ── SERVICES ── */
+.services-section{background:var(--ink-mid);}
+.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;}
+.service-card{
+  background:var(--ink);padding:40px 32px;
+  position:relative;overflow:hidden;
+  border:1px solid var(--ink-border);
+  transition:background 0.3s,border-color 0.3s;
+  cursor:default;
+}
+.service-card:hover{background:var(--ink-soft);border-color:rgba(232,82,26,0.3);}
+.service-card::after{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:var(--orange);transform:scaleX(0);transform-origin:left;
+  transition:transform 0.35s;
+}
+.service-card:hover::after{transform:scaleX(1);}
+.service-number{
+  font-family:var(--display);font-size:80px;
+  color:rgba(255,255,255,0.03);
+  position:absolute;top:12px;right:16px;line-height:1;
+}
+.service-icon{font-size:26px;margin-bottom:20px;display:block;}
+.service-name{
+  font-family:var(--display);font-size:26px;letter-spacing:0.03em;
+  color:var(--white);margin-bottom:12px;line-height:1.1;
+}
+.service-desc{font-size:13px;color:var(--silver);line-height:1.75;font-weight:300;}
+
+/* ── CLIENTS ── */
+.clients-section{background:var(--ink);}
+.clients-intro{
+  font-size:15px;color:var(--silver);font-weight:300;line-height:1.8;
+  max-width:640px;margin-bottom:16px;
+}
+.clients-note{
+  font-family:var(--mono);font-size:11px;color:var(--orange);
+  letter-spacing:0.1em;margin-bottom:56px;
+}
+.clients-grid{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:2px;margin-bottom:60px;
+}
+.client-card{
+  background:var(--ink-mid);
+  border:1px solid var(--ink-border);
+  padding:36px 28px;
+  display:flex;align-items:center;gap:20px;
+  transition:background 0.25s,border-color 0.25s;
+}
+.client-card:hover{background:var(--ink-soft);border-color:rgba(232,82,26,0.25);}
+.client-bullet{
+  width:36px;height:36px;flex-shrink:0;
+  background:var(--orange-dim);border:1px solid rgba(232,82,26,0.3);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--mono);font-size:13px;color:var(--orange);font-weight:500;
+}
+.client-name{font-size:15px;font-weight:500;color:var(--white);line-height:1.3;}
+.client-type{font-family:var(--mono);font-size:10px;color:var(--silver);letter-spacing:0.08em;text-transform:uppercase;margin-top:3px;}
+
+/* ── PROJECTS ── */
+.projects-section{background:var(--ink-mid);}
+.projects-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-template-rows:auto auto;
+  gap:4px;
+}
+.project-card{
+  position:relative;overflow:hidden;
+  aspect-ratio:4/3;
+}
+.project-card.tall{grid-row:span 2;aspect-ratio:unset;}
+.project-card img{
+  width:100%;height:100%;object-fit:cover;
+  filter:brightness(0.6) contrast(1.1);
+  transition:transform 0.6s ease,filter 0.4s;
+}
+.project-card:hover img{transform:scale(1.06);filter:brightness(0.75) contrast(1.1);}
+.project-overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(to top,rgba(12,14,17,0.9) 0%,transparent 50%);
+  display:flex;flex-direction:column;justify-content:flex-end;
+  padding:24px;opacity:0;transition:opacity 0.3s;
+}
+.project-card:hover .project-overlay{opacity:1;}
+.project-label{
+  font-family:var(--mono);font-size:11px;color:var(--orange);
+  letter-spacing:0.12em;text-transform:uppercase;margin-bottom:4px;
+}
+.project-title{font-family:var(--display);font-size:22px;color:var(--white);}
+
+/* ── ABOUT ── */
+.about-section{background:var(--ink);}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;}
+.about-img-wrap{position:relative;}
+.about-img-wrap img{width:100%;height:560px;object-fit:cover;filter:brightness(0.75) contrast(1.1);}
+.about-img-badge{
+  position:absolute;bottom:-20px;right:-20px;
+  background:var(--orange);padding:28px 32px;
+  text-align:center;
+}
+.about-badge-num{font-family:var(--display);font-size:52px;color:var(--white);line-height:1;}
+.about-badge-label{font-family:var(--mono);font-size:10px;color:rgba(255,255,255,0.8);letter-spacing:0.1em;text-transform:uppercase;margin-top:4px;}
+.about-content{padding-top:20px;}
+.about-name{
+  font-family:var(--display);font-size:48px;color:var(--white);
+  letter-spacing:0.03em;margin-bottom:4px;
+}
+.about-role{
+  font-family:var(--mono);font-size:11px;color:var(--orange);
+  letter-spacing:0.15em;text-transform:uppercase;margin-bottom:32px;
+  display:flex;align-items:center;gap:12px;
+}
+.about-role::after{content:'';flex:1;height:1px;background:var(--ink-border);}
+.about-text{
+  font-size:15px;font-weight:300;color:var(--silver-light);
+  line-height:1.9;margin-bottom:28px;
+}
+.about-highlights{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:36px;}
+.highlight-item{
+  background:var(--ink-mid);border:1px solid var(--ink-border);
+  border-left:3px solid var(--orange);
+  padding:20px 20px;
+}
+.highlight-label{font-family:var(--mono);font-size:10px;color:var(--silver);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px;}
+.highlight-val{font-size:14px;color:var(--white);font-weight:500;}
+
+/* ── WHY ── */
+.why-section{background:var(--ink-mid);}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:4px;}
+.why-card{
+  background:var(--ink);border:1px solid var(--ink-border);
+  padding:40px 36px;display:flex;gap:24px;
+  transition:background 0.3s;
+}
+.why-card:hover{background:var(--ink-soft);}
+.why-num{
+  font-family:var(--display);font-size:48px;color:var(--orange);
+  line-height:1;flex-shrink:0;width:60px;
+}
+.why-title{font-family:var(--display);font-size:24px;letter-spacing:0.03em;margin-bottom:10px;}
+.why-text{font-size:13px;color:var(--silver);line-height:1.8;font-weight:300;}
+
+/* ── ZONES ── */
+.zones-strip{
+  background:var(--ink-soft);
+  padding:40px 6%;
+  display:flex;align-items:center;gap:48px;flex-wrap:wrap;
+  border-top:1px solid var(--ink-border);
+  border-bottom:1px solid var(--ink-border);
+}
+.zones-label{font-family:var(--mono);font-size:11px;color:var(--orange);letter-spacing:0.15em;text-transform:uppercase;white-space:nowrap;}
+.zones-tags{display:flex;flex-wrap:wrap;gap:8px;}
+.zone-tag{
+  font-family:var(--mono);font-size:11px;color:var(--silver);
+  padding:6px 14px;border:1px solid var(--ink-border);
+  transition:all 0.2s;
+}
+.zone-tag:hover{border-color:var(--orange);color:var(--orange);}
+
+/* ── CTA ── */
+.cta-section{
+  background:var(--orange);
+  padding:90px 6%;
+  display:grid;grid-template-columns:1fr auto;gap:40px;align-items:center;
+}
+.cta-title{font-family:var(--display);font-size:clamp(36px,5vw,64px);color:var(--white);line-height:1;margin-bottom:12px;}
+.cta-sub{font-size:16px;color:rgba(255,255,255,0.75);font-weight:300;}
+.btn-white{
+  background:var(--white);color:var(--orange);
+  font-family:var(--mono);font-size:12px;letter-spacing:0.12em;text-transform:uppercase;
+  padding:18px 44px;display:inline-block;white-space:nowrap;
+  font-weight:500;transition:transform 0.15s,box-shadow 0.2s;
+}
+.btn-white:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.2);}
+.btn-wa{
+  background:transparent;color:var(--white);
+  font-family:var(--mono);font-size:12px;letter-spacing:0.12em;text-transform:uppercase;
+  padding:17px 44px;border:1px solid rgba(255,255,255,0.5);
+  display:inline-flex;align-items:center;gap:10px;white-space:nowrap;
+  margin-top:12px;transition:border-color 0.2s;
+}
+.btn-wa:hover{border-color:white;}
+.cta-btns{display:flex;flex-direction:column;gap:0;}
+
+/* ── CONTACT ── */
+.contact-section{background:var(--ink);}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;}
+.contact-item{display:flex;gap:20px;align-items:flex-start;margin-bottom:32px;}
+.contact-icon{
+  width:44px;height:44px;flex-shrink:0;
+  background:var(--orange-dim);border:1px solid rgba(232,82,26,0.3);
+  display:flex;align-items:center;justify-content:center;font-size:18px;
+}
+.contact-label{font-family:var(--mono);font-size:10px;color:var(--silver);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:6px;}
+.contact-val{font-size:15px;color:var(--white);font-weight:400;line-height:1.5;}
+.contact-val a{color:var(--white);transition:color 0.2s;}
+.contact-val a:hover{color:var(--orange);}
+.map-embed{
+  width:100%;height:360px;
+  border:1px solid var(--ink-border);
+  filter:grayscale(1) invert(0.9) contrast(1.1);
+  opacity:0.7;
+}
+
+/* ── FOOTER ── */
+footer{
+  background:#080a0c;
+  padding:60px 6% 32px;
+  border-top:1px solid var(--ink-border);
+}
+.footer-top{
+  display:grid;grid-template-columns:2fr 1fr 1fr;gap:60px;
+  padding-bottom:48px;border-bottom:1px solid var(--ink-border);margin-bottom:28px;
+}
+.footer-logo img{height:40px;margin-bottom:16px;}
+.footer-desc{font-size:13px;color:var(--silver);line-height:1.8;font-weight:300;max-width:320px;}
+.footer-col h4{
+  font-family:var(--mono);font-size:10px;color:var(--orange);
+  letter-spacing:0.15em;text-transform:uppercase;margin-bottom:20px;
+}
+.footer-col p,.footer-col a{
+  font-size:13px;color:var(--silver);line-height:2.2;display:block;
+  transition:color 0.2s;
+}
+.footer-col a:hover{color:var(--white);}
+.footer-bottom{
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+}
+.footer-copy{font-family:var(--mono);font-size:11px;color:var(--silver);letter-spacing:0.05em;}
+.footer-seo{font-family:var(--mono);font-size:10px;color:rgba(255,255,255,0.2);letter-spacing:0.05em;}
+
+/* ── WHATSAPP FLOAT ── */
+.wa-float{
+  position:fixed;bottom:28px;right:28px;z-index:999;
+  width:56px;height:56px;border-radius:50%;
+  background:#25D366;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 4px 20px rgba(37,211,102,0.4);
+  transition:transform 0.2s,box-shadow 0.2s;
+  animation:wapulse 3s infinite;
+}
+.wa-float:hover{transform:scale(1.1);box-shadow:0 6px 28px rgba(37,211,102,0.6);}
+@keyframes wapulse{0%,100%{box-shadow:0 4px 20px rgba(37,211,102,0.4);}50%{box-shadow:0 4px 32px rgba(37,211,102,0.7);}}
+.wa-float svg{width:28px;height:28px;fill:white;}
+
+/* ── MOBILE NAV ── */
+.mobile-menu{
+  display:none;position:fixed;top:70px;left:0;right:0;z-index:400;
+  background:var(--ink-mid);border-bottom:1px solid var(--ink-border);
+  padding:24px 6%;flex-direction:column;gap:20px;
+}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{font-family:var(--mono);font-size:13px;letter-spacing:0.1em;text-transform:uppercase;color:var(--silver);padding:8px 0;border-bottom:1px solid var(--ink-border);}
+
+/* ── ANIMATIONS ── */
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 0.7s ease,transform 0.7s ease;}
+.reveal.visible{opacity:1;transform:translateY(0);}
+.reveal-delay-1{transition-delay:0.1s;}
+.reveal-delay-2{transition-delay:0.2s;}
+.reveal-delay-3{transition-delay:0.3s;}
+.reveal-delay-4{transition-delay:0.4s;}
+
+/* ── RESPONSIVE ── */
+@media(max-width:1024px){
+  .hero{grid-template-columns:1fr;}
+  .hero-right{height:50vh;}
+  .hero-right::before{background:linear-gradient(to bottom,var(--ink) 0%,transparent 40%);}
+  .services-grid{grid-template-columns:repeat(2,1fr);}
+  .clients-grid{grid-template-columns:repeat(2,1fr);}
+  .projects-grid{grid-template-columns:repeat(2,1fr);}
+  .project-card.tall{grid-row:span 1;aspect-ratio:4/3;}
+  .about-grid{grid-template-columns:1fr;}
+  .about-img-wrap img{height:400px;}
+  .about-img-badge{right:0;bottom:-10px;}
+  .why-grid{grid-template-columns:1fr;}
+  .stats{grid-template-columns:repeat(2,1fr);}
+  .footer-top{grid-template-columns:1fr 1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+  .cta-section{grid-template-columns:1fr;}
+}
+@media(max-width:768px){
+  .nav-links{display:none;}
+  .nav-call{display:none;}
+  .nav-cta{display:none;}
+  .hamburger{display:flex;}
+  .services-grid{grid-template-columns:1fr;}
+  .clients-grid{grid-template-columns:1fr;}
+  .projects-grid{grid-template-columns:1fr;}
+  .stats{grid-template-columns:repeat(2,1fr);}
+  .hero-left{padding:60px 5% 60px;}
+  section{padding:70px 5%;}
+  .footer-top{grid-template-columns:1fr;gap:36px;}
+  .zones-strip{flex-direction:column;align-items:flex-start;gap:16px;}
+  .about-highlights{grid-template-columns:1fr;}
+  .why-card{flex-direction:column;}
+}
+
+/* Active nav highlight */
+.nav-links a.active{color:var(--white);}
+.nav-links a.active::after{transform:scaleX(1);}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-left">
+    <a href="#home" class="nav-logo"><span class="logo-100">100</span><span class="logo-welds">WELDS</span></a>
+    <div class="nav-divider"></div>
+    <div class="nav-tagline">Structural Steel<br>& PEB Contractors</div>
+  </div>
+  <div class="nav-links">
+    <a href="#services">Services</a>
+    <a href="#clients">Clients</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="nav-call">
+    <div class="live-dot"></div>
+    <a href="tel:+919019120816" class="nav-phone">+91 90191 20816</a>
+    <a href="#contact" class="nav-cta">Get Quote</a>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#services" onclick="closeMenu()">Services</a>
+  <a href="#clients" onclick="closeMenu()">Clients</a>
+  <a href="#projects" onclick="closeMenu()">Projects</a>
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+  <a href="tel:+919019120816">📞 +91 90191 20816</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-left">
+    <div class="eyebrow">Bengaluru · Est. 2014</div>
+    <h1 class="hero-title">
+      ENGINEERED<br>      <span class="line2">TO STAND.</span>
+    </h1>
+    <div class="hero-sub">Built to Last.</div>
+    <p class="hero-desc">
+      Founded by an Ex-L&T professional with 15+ years of construction execution experience. 
+      We deliver precision structural steel and PEB solutions for Bengaluru's most demanding projects.
+    </p>
+    <div class="hero-pills">
+      <span class="pill hot">Ex-L&T Foundation</span>
+      <span class="pill">15+ Years Experience</span>
+      <span class="pill">50+ Projects</span>
+      <span class="pill">Bengaluru</span>
+    </div>
+    <div class="hero-btns">
+      <a href="tel:+919019120816" class="btn-primary">📞 Call Now</a>
+      <a href="https://wa.me/919019120816" class="btn-outline" target="_blank">WhatsApp Us</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-05_at_11_27_42.jpeg" alt="100 Welds structural steel fabrication with sparks">
+  </div>
+  <div class="hero-scroll">Scroll to explore</div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span class="ticker-item">Structural Steel Fabrication</span>
+    <span class="ticker-item">PEB Fabrication & Erection</span>
+    <span class="ticker-item">Slab Strengthening</span>
+    <span class="ticker-item">Retrofitting Works</span>
+    <span class="ticker-item">Mezzanine Steel Floors</span>
+    <span class="ticker-item">Site Barricading</span>
+    <span class="ticker-item">PUF & Deck Sheet</span>
+    <span class="ticker-item">PEB Modifications</span>
+    <span class="ticker-item">Structural Steel Fabrication</span>
+    <span class="ticker-item">PEB Fabrication & Erection</span>
+    <span class="ticker-item">Slab Strengthening</span>
+    <span class="ticker-item">Retrofitting Works</span>
+    <span class="ticker-item">Mezzanine Steel Floors</span>
+    <span class="ticker-item">Site Barricading</span>
+    <span class="ticker-item">PUF & Deck Sheet</span>
+    <span class="ticker-item">PEB Modifications</span>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="stat-item reveal">
+    <div class="stat-num">15<span>+</span></div>
+    <div class="stat-label">Years of experience</div>
+  </div>
+  <div class="stat-item reveal reveal-delay-1">
+    <div class="stat-num">50<span>+</span></div>
+    <div class="stat-label">Projects delivered</div>
+  </div>
+  <div class="stat-item reveal reveal-delay-2">
+    <div class="stat-num">9<span>+</span></div>
+    <div class="stat-label">Tier 1 clients</div>
+  </div>
+  <div class="stat-item reveal reveal-delay-3">
+    <div class="stat-num">100<span>%</span></div>
+    <div class="stat-label">On-time execution</div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="services">
+  <div class="section-tag">What we do</div>
+  <h2 class="section-title">Our <span>Services</span></h2>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <span class="service-number">01</span>
+      <span class="service-icon">🏗️</span>
+      <div class="service-name">Structural Steel Fabrication</div>
+      <p class="service-desc">Precision MS and structural steel fabrication for commercial, industrial and infrastructure projects. Built from your drawings to exact specification.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <span class="service-number">02</span>
+      <span class="service-icon">⚙️</span>
+      <div class="service-name">Structural Steel Erection</div>
+      <p class="service-desc">On-site structural steel erection with experienced crews. We coordinate with your project schedule for zero-delay integration.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <span class="service-number">03</span>
+      <span class="service-icon">🔩</span>
+      <div class="service-name">PEB Fabrication & Erection</div>
+      <p class="service-desc">Complete pre-engineered building fabrication and erection for industrial sheds, warehouses, and commercial structures.</p>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-number">04</span>
+      <span class="service-icon">🏛️</span>
+      <div class="service-name">Slab & Structural Strengthening</div>
+      <p class="service-desc">Engineering-driven slab and structural strengthening solutions for existing buildings requiring load enhancement or damage repair.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <span class="service-number">05</span>
+      <span class="service-icon">🔄</span>
+      <div class="service-name">Retrofitting & Modification</div>
+      <p class="service-desc">Structural retrofitting and modification works for buildings requiring seismic upgrades, additions or alterations to existing steel structures.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <span class="service-number">06</span>
+      <span class="service-icon">📐</span>
+      <div class="service-name">Mezzanine Steel Floors</div>
+      <p class="service-desc">Custom and modular mezzanine steel floor structures to maximise usable space in warehouses, factories, and commercial buildings.</p>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-number">07</span>
+      <span class="service-icon">🔧</span>
+      <div class="service-name">PEB Modifications & Alterations</div>
+      <p class="service-desc">Modifications, extensions and alterations to existing pre-engineered buildings — executed with minimal disruption to ongoing operations.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-1">
+      <span class="service-number">08</span>
+      <span class="service-icon">🛡️</span>
+      <div class="service-name">Site Barricading</div>
+      <p class="service-desc">Professional MS and GI sheet site barricading for construction sites across Bengaluru. Compliant, robust, and delivered fast.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <span class="service-number">09</span>
+      <span class="service-icon">🏭</span>
+      <div class="service-name">PUF & Deck Sheet Installation</div>
+      <p class="service-desc">Supply and installation of PUF insulated panels and deck sheets for industrial and commercial roofing and cladding applications.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CLIENTS -->
+<section class="clients-section" id="clients">
+  <div class="section-tag">Who trusts us</div>
+  <h2 class="section-title">Our <span>Clients</span></h2>
+  <p class="clients-intro">We are proud to have executed projects for some of Bengaluru's most respected developers, construction companies, and industrial groups.</p>
+  <p class="clients-note">A select few of our valued clients — listed alphabetically</p>
+  <div class="clients-grid">
+    <div class="client-card reveal">
+      <div class="client-bullet">B</div>
+      <div><div class="client-name">Brigade Group</div><div class="client-type">Real Estate Developer</div></div>
+    </div>
+    <div class="client-card reveal reveal-delay-1">
+      <div class="client-bullet">K</div>
+      <div><div class="client-name">Kalpataru Projects International Ltd</div><div class="client-type">Infrastructure & Construction</div></div>
+    </div>
+    <div class="client-card reveal reveal-delay-2">
+      <div class="client-bullet">M</div>
+      <div><div class="client-name">Mylan</div><div class="client-type">Pharmaceutical & Industrial</div></div>
+    </div>
+    <div class="client-card reveal">
+      <div class="client-bullet">N</div>
+      <div><div class="client-name">Nexus Select Trust</div><div class="client-type">Retail & Commercial REIT</div></div>
+    </div>
+    <div class="client-card reveal reveal-delay-1">
+      <div class="client-bullet">P</div>
+      <div><div class="client-name">Prestige Group</div><div class="client-type">Real Estate Developer</div></div>
+    </div>
+    <div class="client-card reveal reveal-delay-2">
+      <div class="client-bullet">R</div>
+      <div><div class="client-name">RMZ Corp</div><div class="client-type">Commercial Real Estate</div></div>
+    </div>
+    <div class="client-card reveal">
+      <div class="client-bullet">S</div>
+      <div><div class="client-name">Sattva Group</div><div class="client-type">Real Estate Developer</div></div>
+    </div>
+    <div class="client-card reveal reveal-delay-1">
+      <div class="client-bullet">S</div>
+      <div><div class="client-name">Soul Space Arena Mall</div><div class="client-type">Retail & Commercial</div></div>
+    </div>
+    <div class="client-card reveal reveal-delay-2">
+      <div class="client-bullet">S</div>
+      <div><div class="client-name">SoundPro</div><div class="client-type">Industrial</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+  <div class="section-tag">Our work</div>
+  <h2 class="section-title">Recent <span>Projects</span></h2>
+  <div class="projects-grid">
+    <div class="project-card tall reveal">
+      <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-14_at_21_26_52.jpeg" alt="Structural steel erection Bengaluru">
+      <div class="project-overlay">
+        <div class="project-label">Structural Steel</div>
+        <div class="project-title">Steel Frame Erection</div>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-1">
+      <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-05_at_11_30_06.jpeg" alt="MS frame fabrication Bengaluru">
+      <div class="project-overlay">
+        <div class="project-label">MS Fabrication</div>
+        <div class="project-title">Structural Frame Works</div>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-2">
+      <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-09_at_12_19_41.jpeg" alt="Site barricading Bengaluru">
+      <div class="project-overlay">
+        <div class="project-label">Site Barricading</div>
+        <div class="project-title">Commercial Site, Bengaluru</div>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-14_at_21_29_37.jpeg" alt="Staircase fabrication structural steel">
+      <div class="project-overlay">
+        <div class="project-label">Structural Steel</div>
+        <div class="project-title">Staircase Fabrication</div>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-1">
+      <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-05_at_11_31_36.jpeg" alt="Industrial structural steel Bengaluru">
+      <div class="project-overlay">
+        <div class="project-label">Industrial Project</div>
+        <div class="project-title">Steel Structure Works</div>
+      </div>
+    </div>
+    <div class="project-card reveal reveal-delay-2">
+      <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-05_at_11_27_42.jpeg" alt="Steel fabrication with sparks">
+      <div class="project-overlay">
+        <div class="project-label">Fabrication</div>
+        <div class="project-title">Precision Steelworks</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+  <div class="section-tag">Who we are</div>
+  <h2 class="section-title">About <span>100 Welds</span></h2>
+  <div class="about-grid">
+    <div class="about-img-wrap reveal">
+      <img src="https://raw.githubusercontent.com/100welds/100welds/main/WhatsApp_Image_2026-05-14_at_21_26_52.jpeg" alt="100 Welds structural steel project Bengaluru">
+      <div class="about-img-badge">
+        <div class="about-badge-num">15+</div>
+        <div class="about-badge-label">Years of<br>Experience</div>
+      </div>
+    </div>
+    <div class="about-content reveal reveal-delay-2">
+      <div class="about-name">Tarun Kumar</div>
+      <div class="about-role">Founder & Director, 100 Welds</div>
+      <p class="about-text">
+        Founded by an Ex-L&T professional with over 15 years of construction execution experience, 
+        100 Welds is a Bengaluru-based structural steel and PEB contractor established in 2014.
+      </p>
+      <p class="about-text">
+        We specialise in structural steel fabrication & erection, PEB fabrication & erection, 
+        slab & structural strengthening, retrofitting, mezzanine floors, site barricading, 
+        and PUF & deck sheet installation.
+      </p>
+      <p class="about-text">
+        We serve construction companies, industrial clients, structural engineers, and architects 
+        across Bengaluru — delivering engineering-driven solutions with technical clarity and 
+        on-time execution.
+      </p>
+      <div class="about-highlights">
+        <div class="highlight-item">
+          <div class="highlight-label">Background</div>
+          <div class="highlight-val">Ex-Larsen & Toubro (L&T)</div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-label">Established</div>
+          <div class="highlight-val">2014, Bengaluru</div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-label">Specialisation</div>
+          <div class="highlight-val">Structural Steel & PEB</div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-label">Service area</div>
+          <div class="highlight-val">Bengaluru & surrounding</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="why-section">
+  <div class="section-tag">Why choose us</div>
+  <h2 class="section-title">The <span>Difference</span></h2>
+  <div class="why-grid">
+    <div class="why-card reveal">
+      <div class="why-num">01</div>
+      <div>
+        <div class="why-title">Ex-L&T Engineering Rigour</div>
+        <p class="why-text">Our founder's L&T background means every project is approached with the systems, discipline and quality standards of India's largest construction company — applied to your project regardless of size.</p>
+      </div>
+    </div>
+    <div class="why-card reveal reveal-delay-1">
+      <div class="why-num">02</div>
+      <div>
+        <div class="why-title">Drawing-to-Site Execution</div>
+        <p class="why-text">We handle everything from reading your structural drawings to fabrication to on-site erection. One team, full accountability. No coordination gaps between fabricator and erector.</p>
+      </div>
+    </div>
+    <div class="why-card reveal">
+      <div class="why-num">03</div>
+      <div>
+        <div class="why-title">Trusted by Tier 1 Developers</div>
+        <p class="why-text">Prestige, Brigade, Sattva, RMZ, Kalpataru — these names don't work with contractors who don't deliver. Our track record with Bengaluru's top developers speaks for our reliability.</p>
+      </div>
+    </div>
+    <div class="why-card reveal reveal-delay-1">
+      <div class="why-num">04</div>
+      <div>
+        <div class="why-title">On-Time, Every Time</div>
+        <p class="why-text">Construction schedules are tight and delays are expensive. We understand this because we've lived it. Our commitments to milestones are firm, not approximate.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ZONES -->
+<div class="zones-strip">
+  <div class="zones-label">📍 Areas we serve</div>
+  <div class="zones-tags">
+    <span class="zone-tag">Peenya</span>
+    <span class="zone-tag">Bommasandra</span>
+    <span class="zone-tag">Jigani</span>
+    <span class="zone-tag">Whitefield</span>
+    <span class="zone-tag">Electronic City</span>
+    <span class="zone-tag">Yelahanka</span>
+    <span class="zone-tag">Devanahalli</span>
+    <span class="zone-tag">Rajajinagar</span>
+    <span class="zone-tag">Hebbal</span>
+    <span class="zone-tag">Basavanagudi</span>
+    <span class="zone-tag">Tumkur Road</span>
+    <span class="zone-tag">All of Bengaluru</span>
+  </div>
+</div>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div>
+    <div class="cta-title">Ready to Start<br>Your Project?</div>
+    <p class="cta-sub">Call us for a free consultation. We respond same day.</p>
+  </div>
+  <div class="cta-btns">
+    <a href="tel:+919019120816" class="btn-white">📞 +91 90191 20816</a>
+    <a href="https://wa.me/919019120816" class="btn-wa" target="_blank">💬 WhatsApp Us</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-section" id="contact">
+  <div class="section-tag">Find us</div>
+  <h2 class="section-title">Get in <span>Touch</span></h2>
+  <div class="contact-grid">
+    <div>
+      <div class="contact-item reveal">
+        <div class="contact-icon">📞</div>
+        <div>
+          <div class="contact-label">Phone & WhatsApp</div>
+          <div class="contact-val"><a href="tel:+919019120816">+91 90191 20816</a></div>
+        </div>
+      </div>
+      <div class="contact-item reveal reveal-delay-1">
+        <div class="contact-icon">✉️</div>
+        <div>
+          <div class="contact-label">Email</div>
+          <div class="contact-val"><a href="mailto:100welds@gmail.com">100welds@gmail.com</a></div>
+        </div>
+      </div>
+      <div class="contact-item reveal reveal-delay-2">
+        <div class="contact-icon">📍</div>
+        <div>
+          <div class="contact-label">Office Address</div>
+          <div class="contact-val">100 Welds, 278/1, Above Mobile Point,<br>2nd Main Rd, 2nd Block, Byrappa Block,<br>Thyagaraja Nagar, Basavanagudi,<br>Bengaluru, Karnataka 560070</div>
+        </div>
+      </div>
+      <div class="contact-item reveal reveal-delay-3">
+        <div class="contact-icon">🕐</div>
+        <div>
+          <div class="contact-label">Working Hours</div>
+          <div class="contact-val">Monday – Saturday: 8:30 AM – 6:00 PM</div>
+        </div>
+      </div>
+    </div>
+    <div class="reveal reveal-delay-1">
+      <iframe class="map-embed" title="100 Welds Location" loading="lazy"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6!2d77.5667!3d12.9352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU2JzA2LjciTiA3N8KwMzMnNjAuMSJF!5e0!3m2!1sen!2sin!4v1234567890"
+        allowfullscreen="" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-logo"><span class="logo-100" style="font-family:'Bebas Neue',sans-serif;font-size:42px;color:#eef1f4;letter-spacing:0.04em;">100</span><span class="logo-welds" style="font-family:'Bebas Neue',sans-serif;font-size:42px;color:#e8521a;letter-spacing:0.04em;margin-left:6px;">WELDS</span></div>
+      <p class="footer-desc">Founded by an Ex-L&T professional. Structural steel and PEB contractors serving Bengaluru's top developers, construction companies, and architects since 2014.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <p>Structural Steel Fabrication</p>
+      <p>Structural Steel Erection</p>
+      <p>PEB Fabrication & Erection</p>
+      <p>Slab Strengthening</p>
+      <p>Retrofitting</p>
+      <p>Mezzanine Floors</p>
+      <p>Site Barricading</p>
+      <p>PUF & Deck Sheet</p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:+919019120816">📞 +91 90191 20816</a>
+      <a href="https://wa.me/919019120816">💬 WhatsApp</a>
+      <a href="mailto:100welds@gmail.com">✉ 100welds@gmail.com</a>
+      <p>Basavanagudi, Bengaluru</p>
+      <p>Karnataka 560070</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="footer-copy">© 2025 100 Welds. All rights reserved. | Bengaluru, Karnataka</div>
+    <div class="footer-seo">Structural Steel Fabrication Bangalore · PEB Contractors Bengaluru · Retrofitting · Slab Strengthening</div>
+  </div>
+</footer>
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/919019120816" class="wa-float" target="_blank" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+<script>
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => entry.target.classList.add('visible'), i * 60);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Nav scroll effect
+// Active section nav highlight
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav-links a');
+
+window.addEventListener('scroll', () => {
+  const nav = document.getElementById('navbar');
+  nav.style.background = window.scrollY > 50 ? 'rgba(12,14,17,0.98)' : 'rgba(12,14,17,0.95)';
+
+  let current = '';
+  sections.forEach(section => {
+    if (window.scrollY >= section.offsetTop - 120) {
+      current = section.getAttribute('id');
+    }
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) {
+      link.classList.add('active');
+    }
+  });
+});
+
+// Mobile menu
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+function closeMenu() {
+  document.getElementById('mobileMenu').classList.remove('open');
+}
+
+// Hero image scale on load
+document.querySelector('.hero-right img').style.transform = 'scale(1)';
+</script>
+</body>
+</html>
